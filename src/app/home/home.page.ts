@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
- 
+myVar: String = 'Going up';
+updateMyVar() {
+  this.myVar = 'Going up and up';
+}
 }
